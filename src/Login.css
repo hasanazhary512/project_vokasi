@@ -1,0 +1,67 @@
+/* Login.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2E2A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+.login-container img {
+    width: 100px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    font-size: 16px;
+}
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+.login-container input[type="submit"] {
+    background-color: #3b82f6;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.login-container input[type="submit"]:hover {
+    background-color: #2563eb;
+}
+.captcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.captcha input {
+    width: 70%;
+    margin-right: 5px;
+}
+footer {
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 12px;
+}
